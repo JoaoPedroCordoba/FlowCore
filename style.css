@@ -322,7 +322,6 @@ footer{
     .barradenavegação{
         margin: 0%;
         width:  430px;
-        margin: auto;
         margin-top: 5%;
     }
 
@@ -332,7 +331,7 @@ footer{
     }
 
     .barradenavegação p{
-        font-size: medium;
+        font-size: small;
     }
 
 
@@ -404,7 +403,7 @@ footer{
     .conhecaEquipe{
         margin: 0%;
         width: 430px;
-        height: 100vh;
+        height: 130vh;
     }
 
     .tituloConheçaaEquipe{
@@ -463,6 +462,6 @@ footer{
 
     html{
         margin: 0%;
-        padding: 0%;
+        padding: 0px;
     }
 }
