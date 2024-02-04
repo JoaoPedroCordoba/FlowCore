@@ -78,6 +78,7 @@ a{
         display: flex;
         flex-flow: column;
         align-items: center;
+        width: 100%;
     }
 
     .buscaRapida{
@@ -121,7 +122,6 @@ a{
     }
 
     .Texto h2{
-        width: auto;
         font-size: large;
     }
 }
