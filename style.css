@@ -1,0 +1,447 @@
+body{
+    margin: auto;
+    background-color: #1B1A1A;
+}
+
+.barradenavegação{
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    justify-items:baseline;
+    padding: 0.5%;
+    
+}
+
+.buscaRapida{
+    width: 25rem;
+    font-size: 20px;
+    color: #DDDDDD;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    font-family: Arial, Helvetica, sans-serif; 
+    transition: .10s all ease;
+}
+
+.logoHeader{    
+    width:300px;
+}
+
+.BuscaRapida2{
+    transition: .10s all ease;
+}
+
+.BuscaRapida2:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+
+
+
+/* segunda aba */
+.pagina-principal{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 36rem;
+
+
+}
+
+.apresentação{
+   margin-left: 25%;
+   grid-column: auto;
+   display: grid;
+   place-content: center;
+
+}
+
+.slogan{
+    font-size: 70px;
+    color: #723be7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.slogan span{
+    color: #ff9900;
+}
+
+.textApresentacao{
+    width: 35rem;
+    text-align: justify;
+    color: #F2F2F2;
+    font-size:larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.pagina-principal img{
+    width: 650px;
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   animation: float 3s ease-in-out infinite;
+   
+}
+
+@keyframes float{
+	0%,100%{
+		transform:translatey(1)
+	}
+	50%{
+		transform:translatey(20px)
+	}
+}
+
+
+
+/* terceira aba */
+.PorqueaFlowCore{
+    display: grid;
+    grid-template-columns: auto 50%;
+    height: 100vh;
+    place-content: center;
+}
+
+.tituloPorqueaFlowCore{
+    padding: 0%;
+    margin-top: 0%;
+    color: #723be7;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.imgpq{
+   margin: auto auto;
+   
+
+}
+
+.vantagens  { 
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-start: auto;
+    margin-right: 4%;
+
+}
+
+.vantage{
+    margin: 20px;
+    background-color: #DDDDDD;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2%;
+    
+}
+
+.vantage h1{
+    color:#723be7;
+    margin-left: 3%;
+}
+
+.vantage p{
+    margin: 10px;
+    font-size: medium;
+    font-style: normal;
+}
+
+/* quarta aba */
+
+.conhecaEquipe{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.conhecaEquipe img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
+
+.tituloConheçaaEquipe{
+    text-align:center;
+    color: #723be7;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.equipe{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.card{
+    border: #ff9900 solid 3px;
+    border-radius: 2%;
+    background-color: #4d4d4d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2F2F2;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 5px black;
+    transition: .10s all ease;
+
+    
+}
+.card:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+
+.card h1{
+    font-size:large;
+    font-weight: 700;
+}
+
+.card p{
+    width: 240px;
+    font-size:large;
+    font-weight:500;
+}
+
+
+/* /* Contatos  */
+.imgRedesSociais1{
+    width: 100px;
+    height: 90px;
+}
+
+.imgRedesSociais{
+    width: 100px;
+    height: 85px;
+    border-radius: 5%;
+}
+
+.contato{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly ;
+    
+}
+
+.redesSociais{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.cardContato{
+    background-color:#989797;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 37px;
+    color: #151515;
+} 
+
+.cardContato:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+
+.tituloContato{
+    text-align:center;
+    color:#ff9900;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    all: unset;
+    cursor: pointer;
+}
+
+
+/* animação */
+.animar {
+	opacity: 1;
+	transform: translate(0px, 0px);
+}
+
+.termosdeuso{
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    color: #DDDDDD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.logoTermos{
+    width: 100px;
+    height: 50px;
+}
+
+.termosdeuso p:hover{
+    color: #723be7;
+    font-style: inherit;
+}
+
+/* responsividade */
+@media screen and (max-width: 1100px){
+
+    body{
+     width: 430px;
+     height: 100vh;
+    }
+
+    .barradenavegação{
+        margin: 0%;
+        width:  430px;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .barradenavegação img{
+        padding-left: 2%;
+        width: 200px;
+    }
+
+    .barradenavegação p{
+        font-size: medium;
+    }
+
+
+    /* pagina-principal */
+    .pagina-principal{
+        height: 60vh;
+        width: auto;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .apresentação{
+        padding: 5%;
+        margin: 0%;
+        width: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        
+    }
+
+    .pagina-principal h1{
+        font-size: 3em;
+    }
+
+    .pagina-principal img{
+        display: none;
+    }
+
+    .pagina-principal p{
+        font-size: small;
+        width: 300px;
+    }
+
+
+
+    /* pagina dois(Vantagens) */
+    .PorqueaFlowCore img{
+        display: none;
+    }
+
+    .PorqueaFlowCore{
+        margin: 0%;
+        align-items: flex-start;
+        width: 430px;
+        height: 100vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .PorqueaFlowCore h1{
+        font-size: 2rem;
+    }
+
+    .vantagens{
+        width: 400px;
+    }
+
+    .vantagens h1{
+        font-size: 20px;
+    }
+
+
+    /* equipe */
+
+
+    .conhecaEquipe{
+        margin: 0%;
+        width: 430px;
+        height: 100vh;
+    }
+
+    .tituloConheçaaEquipe{
+        font-size: 2rem;
+    }
+
+    .equipe{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card{
+        height: 280px;
+        margin-bottom: 8%;
+    }
+
+    .card img{
+        width: 100px;
+        height: 100px;
+    }
+
+
+    /* contato */
+
+    .contato{
+        margin: 0%;
+        width: 430px;
+        height: 150vh;
+    }
+
+    .redesSociais{
+        margin: 0%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardContato{
+        height: 280px;
+        margin-bottom: 8%;
+    }
+
+    .tituloContato{
+        font-size: 2rem;
+    }
+
+    /* termo */
+    .termosdeuso{
+        margin: 0%;
+        width: 400px;
+        height: 5vh;
+    }
+}
