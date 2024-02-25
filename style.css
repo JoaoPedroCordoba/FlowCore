@@ -1,3 +1,11 @@
+html{
+    all: unset;
+    margin-right: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
 body{
     margin: auto;
     background-color: #1B1A1A;
@@ -461,7 +469,7 @@ footer{
     }
 
     html{
-        margin: 0%;
-        padding: 0px;
+        
     }
+
 }
